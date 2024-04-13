@@ -43,4 +43,4 @@
 
 Recommendation: k3d
 
-![Application on Kubernetes](123456.gif)
+![Application on Kubernetes](../.img/123456.gif)
