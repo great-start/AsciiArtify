@@ -4,4 +4,4 @@
 
 ## Automated Sync demo
 
-![ArgoCD Automated Sync demo on Kubernetes](../.img/ArgoCD_demo.webm)
+![ArgoCD Automated Sync demo on Kubernetes](../.img/ArgoCD_demo.gif)
