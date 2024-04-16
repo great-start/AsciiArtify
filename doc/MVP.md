@@ -4,4 +4,4 @@
 
 ## Automated Sync demo
 
-![ArgoCD Automated Sync demo on Kubernetes](../.img/ArgoCD_demo.gif)
+[Automated Sync demo_Link](https://player.vimeo.com/video/935301087)
