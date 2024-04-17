@@ -16,5 +16,6 @@ do
 
   # Output the statistics to the console
   # "Resource, Namespace, Name, CPU, Memory"
-  echo "Ресурс: $RESOURCE_TYPE, Пространство имен: $NAMESPACE, Имя: $NAME, CPU: $CPU, Память: $MEMORY"
+  # echo "Ресурс: $RESOURCE_TYPE, Пространство имен: $NAMESPACE, Имя: $NAME, CPU: $CPU, Память: $MEMORY"
+  echo "Resource: $RESOURCE_TYPE, Namespace: $NAMESPACE, Name: $NAME, CPU: $CPU, Memory: $MEMORY"
 done
