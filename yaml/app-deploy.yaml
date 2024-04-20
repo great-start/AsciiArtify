@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nest
+  labels:
+    app: nest
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: nest-template
+  template:
+    metadata:
+      labels:
+        app: nest-template
+    spec:
+      containers:
+        - name: nest-template
+          imagePullPolicy: IfNotPresent
+          image: ghcr.io/great-start/nest-template-alpine:1.0.0
+          ports:
+            - containerPort: 3000
+            # resources limit
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "100m"
+              memory: "256Mi"
